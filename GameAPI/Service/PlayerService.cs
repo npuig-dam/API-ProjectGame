@@ -1,7 +1,6 @@
 ﻿using GameAPI.Model;
 using GameAPI.Persistence;
-using MySql.Data.MySqlClient;
-
+using MySqlConnector;
 namespace GameAPI.Service
 {
     public class PlayerService

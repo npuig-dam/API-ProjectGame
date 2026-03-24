@@ -1,5 +1,5 @@
 ﻿using GameAPI.Persistence;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 using GameAPI.Model;
 
 namespace GameAPI.Service

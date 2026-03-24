@@ -32,7 +32,7 @@ namespace GameAPI.Controllers
             return objLoginService.Add(login);
         }
 
-        [HttpGet]
+        [HttpGet("verify")]
         public bool PasswdVer(int Id, string Passwd)
         {
             LoginService objLoginService = new LoginService();
