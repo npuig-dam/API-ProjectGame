@@ -12,7 +12,7 @@ namespace GameAPI.Persistence
         {
 
             // For now, using your provided string directly:
-            string connectionString = "Server=ellaboratori.cat;Database=nilp;Uid=nilp;Pwd=campa123;";
+            string connectionString = "Server=ellaboratori.cat;Port=3306;Database=nilp;Uid=nilp;Pwd=campa123;SslMode=none;AllowPublicKeyRetrieval=true;";
 
             // 3. Use SqliteConnection (lowercase l)
             var db = new MySqlConnection(connectionString);

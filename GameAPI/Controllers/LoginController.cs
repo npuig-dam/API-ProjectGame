@@ -12,11 +12,29 @@ namespace GameAPI.Controllers
     {
 
         [HttpGet]
+        public IActionResult Get()
+        {
+            try
+            {
+                // This is your existing logic
+                LoginService objLoginService = new LoginService();
+                var logins = objLoginService.GetAllLogins();
+                return Ok(logins);
+            }
+            catch (System.Exception ex)
+            {
+                // This will print the EXACT error (like "Access Denied" or "Host Unknown") 
+                // directly in your browser window instead of just saying "500"
+                return StatusCode(500, $"Internal Error: {ex.Message} | StackTrace: {ex.StackTrace}");
+            }
+        }
+
+        /*[HttpGet]
         public List<Login> Get()
         {
             LoginService objLoginService = new LoginService();
             return objLoginService.GetAllLogins();
-        }
+        }*/
 
         [HttpGet("{id}")]
         public Login GetId(int id)
