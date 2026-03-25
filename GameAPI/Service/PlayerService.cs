@@ -61,11 +61,11 @@ namespace GameAPI.Service
             int rows_affected = 0;
             using (var ctx = DbContext.GetInstance())
             {
-                string query = "UPDATE Player SET Deck = @deck";
+                string query = "UPDATE Player SET Deck = @deck WHERE IdPlayer = @id";
                 using (var command = new MySqlCommand(query, ctx))
                 {
                     command.Parameters.Add(new MySqlParameter("deck", player.Deck));
-              
+                    command.Parameters.Add(new MySqlParameter("id", player.Id));
 
 
                     rows_affected = command.ExecuteNonQuery();
