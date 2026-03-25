@@ -65,7 +65,7 @@ namespace GameAPI.Service
                 using (var command = new MySqlCommand(query, ctx))
                 {
                     command.Parameters.Add(new MySqlParameter("deck", player.Deck));
-                    command.Parameters.Add(new MySqlParameter("id", player.Id));
+                    command.Parameters.Add(new MySqlParameter("id", player.IdPlayer));
 
 
                     rows_affected = command.ExecuteNonQuery();

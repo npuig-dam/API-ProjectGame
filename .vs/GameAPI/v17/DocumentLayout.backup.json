@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|c:\\users\\nibi.exe\\source\\repos\\gameapi\\gameapi\\service\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|solutionrelative:gameapi\\service\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|c:\\users\\nibi.exe\\source\\repos\\gameapi\\gameapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|solutionrelative:gameapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|c:\\users\\nibi.exe\\source\\repos\\gameapi\\gameapi\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|solutionrelative:gameapi\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|solutionrelative:gameapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|c:\\users\\nibi.exe\\source\\repos\\gameapi\\gameapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|solutionrelative:gameapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|c:\\users\\nibi.exe\\source\\repos\\gameapi\\gameapi\\persistence\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|solutionrelative:gameapi\\persistence\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|c:\\users\\nibi.exe\\source\\repos\\gameapi\\gameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|solutionrelative:gameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|c:\\users\\nibi.exe\\source\\repos\\gameapi\\gameapi\\service\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|solutionrelative:gameapi\\service\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D303FE-7AA7-4324-A74B-C5CA2BD5EF37}|GameAPI\\GameAPI.csproj|c:\\users\\nibi.exe\\source\\repos\\gameapi\\gameapi\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DbContext.cs",
               "DocumentMoniker": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Persistence\\DbContext.cs",
               "RelativeDocumentMoniker": "GameAPI\\Persistence\\DbContext.cs",
@@ -90,19 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "GameAPI\\Controllers\\PlayerController.cs",
               "ToolTip": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Controllers\\PlayerController.cs",
               "RelativeToolTip": "GameAPI\\Controllers\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:47:39.073Z"
+              "WhenOpened": "2026-03-17T17:47:39.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "GameAPI\\Controllers\\LoginController.cs",
@@ -110,12 +111,11 @@
               "RelativeToolTip": "GameAPI\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T18:47:33.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T18:47:33.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\appsettings.json",
               "RelativeDocumentMoniker": "GameAPI\\appsettings.json",
@@ -127,19 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "PlayerService.cs",
               "DocumentMoniker": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Service\\PlayerService.cs",
               "RelativeDocumentMoniker": "GameAPI\\Service\\PlayerService.cs",
               "ToolTip": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Service\\PlayerService.cs",
               "RelativeToolTip": "GameAPI\\Service\\PlayerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:51:46.758Z"
+              "WhenOpened": "2026-03-17T17:51:46.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Model\\Login.cs",
               "RelativeDocumentMoniker": "GameAPI\\Model\\Login.cs",
@@ -147,8 +148,7 @@
               "RelativeToolTip": "GameAPI\\Model\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T18:36:43.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T18:36:43.137Z"
             },
             {
               "$type": "Document",
@@ -164,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Model\\Player.cs",
               "RelativeDocumentMoniker": "GameAPI\\Model\\Player.cs",
@@ -177,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Program.cs",
               "RelativeDocumentMoniker": "GameAPI\\Program.cs",
