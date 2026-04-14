@@ -39,12 +39,12 @@ namespace GameAPI.Service
             int rows_affected = 0;
             using (var context = DbContext.GetInstance())
             {
-                string query = "INSERT INTO Player (Id, Deck, StatsId) VALUES (@id, @deck, @statsId)";
+                string query = "INSERT INTO Player (Id, Deck, IdPlayer) VALUES (@id, @deck, @idPlayer)";
                 using (var command = new MySqlCommand(query, context))
                 {
                     command.Parameters.Add(new MySqlParameter("id", player.Id));
                     command.Parameters.Add(new MySqlParameter("deck", player.Deck));
-
+                    command.Parameters.Add(new MySqlParameter("idPlayer", player.IdPlayer));
 
                     rows_affected = command.ExecuteNonQuery();
 
