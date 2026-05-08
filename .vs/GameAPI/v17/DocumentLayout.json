@@ -78,8 +78,7 @@
               "RelativeToolTip": "GameAPI\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-30T16:30:58.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T16:30:58.416Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "GameAPI\\Persistence\\DbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:56:35.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T17:56:35.183Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "GameAPI\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T18:47:33.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T18:47:33.345Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "GameAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T17:42:31.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T17:42:31.882Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "GameAPI\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-24T17:45:07.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T17:45:07.591Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "GameAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-24T17:45:05.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T17:45:05.56Z"
             },
             {
               "$type": "Document",
@@ -154,7 +148,7 @@
               "RelativeDocumentMoniker": "GameAPI\\Service\\LoginService.cs",
               "ToolTip": "C:\\Users\\Nibi.exe\\source\\repos\\GameAPI\\GameAPI\\Service\\LoginService.cs",
               "RelativeToolTip": "GameAPI\\Service\\LoginService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwBUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T18:37:38.335Z",
               "EditorCaption": ""
