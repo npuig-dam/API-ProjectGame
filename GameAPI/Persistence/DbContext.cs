@@ -8,7 +8,7 @@ namespace GameAPI.Persistence
     {
         private static IConfiguration _configuration;
 
-        // This "Static Constructor" runs automatically the first time the class is used
+     
         static DbContext()
         {
             var builder = new ConfigurationBuilder()
@@ -27,14 +27,13 @@ namespace GameAPI.Persistence
                 Database = "nilp",
                 UserID = "nilp",
                 Password = "campa123",
-                // This is the specific property for the MySqlConnector library
+       
                 SslMode = MySqlSslMode.None,
                 AllowPublicKeyRetrieval = true
             };
 
             var db = new MySqlConnection(builder.ConnectionString);
 
-            // We open here to catch any "Access Denied" or firewall issues
             db.Open();
 
             return db;

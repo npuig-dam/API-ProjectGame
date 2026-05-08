@@ -1,6 +1,7 @@
 ﻿using GameAPI.Persistence;
 using MySqlConnector;
 using GameAPI.Model;
+using BC = BCrypt.Net.BCrypt;
 
 namespace GameAPI.Service
 {
@@ -67,14 +68,14 @@ namespace GameAPI.Service
         public int Add(Login login)
         {
             int rows_affected = 0;
+            string hashedPassword = BC.HashPassword(login.Passwd);
             using (var ctx = DbContext.GetInstance())
             {
                 string query = "INSERT INTO Login (Name, Passwd) VALUES (@name, @passwd)";
                 using (var command = new MySqlCommand(query, ctx))
                 {
                     command.Parameters.Add(new MySqlParameter("name", login.Name));
-                    command.Parameters.Add(new MySqlParameter("passwd", login.Passwd));
-
+                    command.Parameters.Add(new MySqlParameter("passwd", hashedPassword));
 
                     rows_affected = command.ExecuteNonQuery();
 
@@ -88,7 +89,7 @@ namespace GameAPI.Service
         public bool PasswdCorrect(int Id, string Passwd)
         {
 
-
+            string hashedPassword = BC.HashPassword(Passwd);
             using (var ctx = DbContext.GetInstance())
             {
                 string query = "SELECT COUNT(*) FROM Usuaris WHERE Id = @id AND Passwd = @passwd";
